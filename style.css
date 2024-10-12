@@ -4,31 +4,38 @@ padding: 0;
 box-sizing: border-box;
 }
 body {
-    background: #A9C387;
-    font-size: 24px;
+    background-image:url(/Gemini_Generated_Image_z90yyjz90yyjz90y.jpeg);
+    font-size: 30px;
  }
 header{
   background-color: Black;
   padding: 30px;
 }
+footer{
+  background-color: black;
+}
 img{
-    display: flex;
-    justify-content: center;
-    border: 1px solid white;
-    border-radius: 10px;
-    width:  700px;
-    height: 700px;
-  }
+    border: 2px solid white;
+    border-radius: 20px;
+    width:  600px;
+    height: 500px;
+    max-width: 100%;
+    height: auto;
+}
   h1{
     color: #FFFFFF;
-    font-size: 15px;
+    font-size: 50px;
+    font-family: Tahoma, sans-serif;
   }
   h3{
-    color: #FFFFFF;
+    color:#032BFF;
     font-size: 20px;
   }
   iframe{
     border-radius: 10px;
     width: 850px;
     height:500px;
+  }
+  p{
+    color: #FFFFFF;
   }
