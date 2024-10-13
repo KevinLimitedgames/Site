@@ -1,0 +1,53 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Tahoma, sans-serif;
+
+}
+body {
+    background: #686868;
+    font-size: 30px;
+}
+header{
+  background-color: #161616;
+  height: 120px;
+}
+footer{
+  background-color:#000000;
+  padding-bottom: 300px;
+}
+img{
+    border: 5px solid white;
+    border-radius: 20px;
+    width:   900px;
+    height:  450px;
+    margin: 40px;
+}
+  h1{
+    color: #FFFFFF;
+    font-size: 70px;
+    padding-left: 3px;
+    
+  }
+  h3{
+    font-size: 50px;
+  }
+  iframe{
+    border-radius: 10px;
+    width: 900px;
+    height: 700px;
+    margin: 40px;
+  }
+  p{
+    font-size:auto;
+    margin: 40px;
+    }
+  dt{
+    font-size: 40px;
+  }
+  hr{
+    height: 5px;
+    background: #FFFFFF;
+    margin-top: 3px;
+  }
