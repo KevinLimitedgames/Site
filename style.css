@@ -6,7 +6,7 @@ font-family: bold, Helvetica, sans-serif;
 
 }
 body {
-    background:#B0C9CF;    
+    background:#000000;    
     font-size: 30px;
 }
 header{
@@ -27,7 +27,7 @@ img{
     background-color: #FFFFFF;
 }
   h1{
-    color: #000000;
+    color: #FF0000;
     font-size: 40px;
     padding-left: 3px;
     
