@@ -2,36 +2,39 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-font-family: Tahoma, sans-serif;
+font-family: bold, Helvetica, sans-serif;
 
 }
 body {
-    background: #686868;
+    background:#B0C9CF;    
     font-size: 30px;
 }
 header{
-  background-color: #161616;
-  height: 120px;
+  background-color: #FFFFFF;
+  height: 100px;
+  
 }
 footer{
   background-color:#000000;
   padding-bottom: 300px;
 }
 img{
-    border: 5px solid white;
+    border: 2px solid white;
     border-radius: 20px;
-    width:   900px;
-    height:  450px;
-    margin: 40px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #FFFFFF;
 }
   h1{
-    color: #FFFFFF;
-    font-size: 70px;
+    color: #000000;
+    font-size: 40px;
     padding-left: 3px;
     
   }
   h3{
-    font-size: 50px;
+    font-size: 40px;
+    text-align: center;
   }
   iframe{
     border-radius: 10px;
@@ -47,7 +50,10 @@ img{
     font-size: 40px;
   }
   hr{
-    height: 5px;
+    height: 1px;
     background: #FFFFFF;
     margin-top: 3px;
+  }
+  h4{
+    text-align: center;
   }
