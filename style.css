@@ -1,59 +1,137 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: bold, Helvetica, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-}
 body {
-    background:#B0C9CF;    
-    font-size: 30px;
+  background-color: #63B46C;
+  background-size: 400% 400%;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
-header{
-  background-color: #000000;
-  height: 100px;
-  
+
+header {
+  height: 200px;
+  background-image: url('/IMG_20241223_070907.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-footer{
-  background-color:#000000;
-  padding-bottom: 300px;
+
+header h1 {
+  font-size: 40px;
 }
-img{
-    border: 2px solid white;
-    border-radius: 20px;
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+img {
+  border-radius: 20px;
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+h1, h2, h3, h4 {
+  color: #FF0000;
+  font-size: 40px;
+  padding-left: 5px;
+}
+
+h2 {
+  font-size: 50px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 70px;
+}
+
+h4 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+  margin: 20px;
+}
+
+ul.listgame {
+  font-size: 30px;
+  background-color: #FFFFFF;
+  margin: 20px auto;
+  padding: 20px;
+  width: 50%;
+  border-radius: 10px;
+  list-style-type: disc;
+}
+
+hr {
+  height: 1px;
+  background: #000;
+  margin: 20px 0;
+}
+
+iframe {
+  width: 80%;
+  height: 400px;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+
+footer {
+  background-color: #000;
+  padding: 40px 0;
+}
+
+footer ul {
+  list-style: none;
+  text-align: center;
+}
+
+footer .youlogo {
+  width: 200px;
+  height: 60px;
+  background-color: #FF0505;
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin: 10px auto;
+}
+
+footer .redes-sociais {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  img {
     width: 100%;
-    height: 100%;
-    display: flex;
-    background-color: #FFFFFF;
-}
-  h1{
-    color: #FF0000;
-    font-size: 40px;
-    padding-left: 3px;
-    
+    height: auto;
   }
-  h3{
-    font-size: 40px;
-    text-align: center;
+
+  iframe {
+    width: 100%;
+    height: 300px;
   }
-  iframe{
-    border-radius: 10px;
-    width: 900px;
-    height: 700px;
-    margin: 40px;
+
+  .listgame {
+    width: 90%;
   }
-  p{
-    font-size:auto;
-    margin: 40px;
     }
-  dt{
-    font-size: 40px;
-  }
-  hr{
-    height: 1px;
-    background: #FFFFFF;
-    margin-top: 3px;
-  }
-  h4{
-    text-align: center;
-  }
