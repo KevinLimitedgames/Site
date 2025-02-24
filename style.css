@@ -15,12 +15,12 @@ img {
   padding: 10px;
 }
 iframe{
-  width: 90%;
-  height: auto;
   border-radius: 10px;
-  display: block;
   margin: 0 auto;
-  padding: 10px;
+  width:90%;
+  height: auto;
+  display: flex;
+  padding: px;
 }
 h1{
   text-align: center;
@@ -35,7 +35,7 @@ p{
 }
 html, body {
     background-color: #232323;
-    height: 100%;
+    height: 100vh;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -75,4 +75,4 @@ footer ul li a {
 
 footer ul li a:hover {
     color: #fff;
-}
+  }
